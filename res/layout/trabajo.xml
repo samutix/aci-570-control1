@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/foo1"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.31"
+        android:background="#14E89A"
+        android:ems="10"
+        android:hint="@string/foo" />
+
+     <EditText
+         android:id="@+id/foo"
+         android:layout_width="60dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="20dp"
+         android:layout_weight="1"
+         android:background="#FF0073"
+         android:hint="@string/foo" >
+      
+         <requestFocus />
+    </EditText>
+     <EditText
+         android:id="@+id/foo2"
+         android:layout_width="60dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="20dp"
+          android:background="#FFA200"
+         android:hint="@string/foo" >
+          <requestFocus />
+    </EditText>
+     <EditText
+         android:id="@+id/foo3"
+         android:layout_width="60dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="20dp"
+         android:background="#BA14E8"
+         android:hint="@string/foo" >
+           <requestFocus />
+    </EditText>
+     
+    
+</LinearLayout>
